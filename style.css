@@ -1,0 +1,21 @@
+/* -----------SET UP -----------  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin-bottom: 20px;
+    border: 4px solid black;
+    min-height: 90vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    justify-content: column;
+}
