@@ -6,11 +6,10 @@
 
 html body {
     scroll-behavior: smooth;
-    background: #F7F8FA;
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {
+.titre{
     font-family: 'Comfortaa', cursive;
     text-align: center;
     color: #5EB9CA;
@@ -19,11 +18,11 @@ h1 {
     font-weight: 700;
     line-height: 45px;
     letter-spacing: 0px;
-<<<<<<< HEAD
-=======
 
->>>>>>> 38ea06f4799b7a92bcf982f2824a0e5602749431
+    margin-top: 45px;
+
 }
+
 
 section,
 footer {
@@ -47,18 +46,21 @@ form {
 .column {
     flex-direction: column;
 }
-<<<<<<< HEAD
 
 
 /*  */
-=======
-/*  ACCUEIL */
->>>>>>> 38ea06f4799b7a92bcf982f2824a0e5602749431
 
-.compte {
-    display: flex;
+.compte{
     justify-content: flex-end;
 }
+
+.gauche {
+   
+    justify-content: flex-start;
+}
+
+
+
 
 img {
     display: block;
@@ -90,11 +92,7 @@ section {
 }
 
 p {
-<<<<<<< HEAD
     text-align: center;
-=======
-    text-align: center; 
->>>>>>> 38ea06f4799b7a92bcf982f2824a0e5602749431
 }
 
 #recherche {
@@ -134,7 +132,6 @@ input {
 
 header {
     width: min(1198px, 95%);
-    margin: auto;
     padding-top: 25px;
 }
 
