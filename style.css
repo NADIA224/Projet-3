@@ -18,15 +18,11 @@ html body {
     font-weight: 700;
     line-height: 45px;
     letter-spacing: 0px;
-<<<<<<< HEAD
-    margin-top: 45px;
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 6a4215b259c47ab5937718e2bcc0b9ffc0aba064
 
->>>>>>> 38ea06f4799b7a92bcf982f2824a0e5602749431
+    margin-top: 45px;
+
 }
+
 
 section,
 footer {
@@ -50,24 +46,14 @@ form {
 .column {
     flex-direction: column;
 }
-<<<<<<< HEAD
 
 
 /*  */
-=======
-/*  ACCUEIL */
->>>>>>> 38ea06f4799b7a92bcf982f2824a0e5602749431
 
-<<<<<<< HEAD
 .compte{
-=======
-.compte {
-    display: flex;
->>>>>>> 6a4215b259c47ab5937718e2bcc0b9ffc0aba064
     justify-content: flex-end;
 }
 
-<<<<<<< HEAD
 .gauche {
    
     justify-content: flex-start;
@@ -76,8 +62,6 @@ form {
 
 
 
-=======
->>>>>>> 6a4215b259c47ab5937718e2bcc0b9ffc0aba064
 img {
     display: block;
     max-width: 100%;
@@ -108,11 +92,7 @@ section {
 }
 
 p {
-<<<<<<< HEAD
     text-align: center;
-=======
-    text-align: center; 
->>>>>>> 38ea06f4799b7a92bcf982f2824a0e5602749431
 }
 
 #recherche {
