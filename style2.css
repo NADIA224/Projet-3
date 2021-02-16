@@ -6,7 +6,6 @@
 
 body {
     scroll-behavior: smooth;
-    background: #F7F8FA;
     font-family: 'Roboto', sans-serif;
 
 }
@@ -55,6 +54,7 @@ header {
     width: min(1198px, 95%);
     margin: auto;
     padding-top: 25px;
+    background: #F7F8FA;
 }
 nav {
     gap: 50px;
@@ -89,12 +89,13 @@ input{
     display: grid;
     grid-template-columns: 250px 250px 250px 250px;
     grid-gap: 60px;
+    margin-left: 127px;
     
   }
   
   .box {
 
-    border-radius: 5px;
+    border-radius: 2px;
     padding: 20px;
     font-size: 150%;
   }
