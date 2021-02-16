@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html body {
     scroll-behavior: smooth;
     background: #F7F8FA;

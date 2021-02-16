@@ -81,4 +81,20 @@ input{
 
     background:rgba(128, 128, 128, 0.1);
     
-}" "
+}
+
+/* Section BASKETS */
+
+.lesBaskets {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-gap: 60px;
+    
+  }
+  
+  .box {
+
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
