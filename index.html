@@ -7,51 +7,50 @@
     <title>SHOES'HER</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <!-- MENU -->
 
-
-  <h1 class="titre">SHOES'HER.</h1>
-    <section class="compte flex">
-        <nav class="flex">
-            <a href="#Compte"><img src="User.png" alt="icon-compte" class="utile flex"> Compte</a>
-            <a href="#favoris"> <img src="Coeur.png" alt="icon-favoris" class="utile flex"> Favoris</a>
-            <a href="#Panier"> <img src="ShoppingCart.png" alt="icon-panier" class="utile flex"> Panier</a>
-        </nav>
-    </section>
-
-    <section id="SHOES'HER">
-        <header class=" gauche flex">
+    <section class="back">
+        </div>
+        <h1 class="titre">SHOES'HER.</h1>
+        <section class="compte flex">
             <nav class="flex">
-                <a href="#Baskets">Baskets</a>
-                <a href="#Bottes">Bottes</a>
-                <a href="#Ballerines">Ballerines</a>
-                <a href="#talons">Talons</a>
+                <a href="#Compte"><img src="User.png" alt="icon-compte" class="flex"></a>
+                <a href="#favoris"> <img src="Coeur.png" alt="icon-favoris" class="flex"></a>
+                <a href="#Panier"> <img src="ShoppingCart.png" alt="icon-panier" class="flex"></a>
             </nav>
-            <div class="burger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </header>
+        </section>
+
+        <section class="menusecondaire">
+            <header class=" recherche2 flex">
+                <nav class="flex deuxiemenav">
+                    <a href="choix.html">Baskets</a>
+                    <a href="#Bottes">Bottes</a>
+                    <a href="#Ballerines">Ballerines</a>
+                    <a href="#talons">Talons</a>
+                </nav>
+                <form id="none" class="compte flex">
+                    <img src="MagnifyingGlass.png" alt="loupe">
+                    <label for="recherche"></label>
+                    <input type="text" id="recherche" placeholder="Rechercher">
+                </form>
+
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </header>
+        </section>
     </section>
-
-    <!-- Barre de recherche -->
-
-    <div class="recherche flex ">
-        <form class="flex">
-            <img src="MagnifyingGlass.png" alt="loupe">
-            <label for="recherche"></label>
-            <input type="text" id="recherche" placeholder="Rechercher">
-        </form>
-    </div>
-
-
 
 
     <!-- caroussel -->
@@ -62,7 +61,7 @@
 
 
     <!-- 4 chaussures -->
-    <section id=chaussures>
+    <section id="chaussures" class="listeproduit">
         <div class="flex">
             <div class="flex column">
                 <img src="basketrose.png" alt="image">
@@ -88,7 +87,7 @@
     </section>
 
     <!-- 4 chaussures -->
-    <section id=chaussures>
+    <section id="chaussures2" class="listeproduit">
         <div class="flex">
             <div class="flex column">
                 <img src="Chaussure5.png" alt="image">
@@ -126,8 +125,33 @@
     </section>
 
 
-    <section id=reseaux>
-        <p><b>Rejoingnez-nous sur la communité SHOES’HER.</b></p>
+    <!-- Section Newsletter -->
+
+    <section class="Newsletter">
+        <div class="offre flex">
+            <img src="Gift.png" alt="icôneCadeau">
+            <h3>20€ OFFERTS*</h3>
+        </div>
+        <h4>EN VOUS ABONNANT A NOTRE INCROYABLE NEWLETTER</h4>
+        <div class="email flex">
+            <label for="email">E-MAIL</label>
+            <input type="email" name="email" id="email" placeholder="ex: cendrillon@shoesher.fr">
+        </div>
+
+        <p>Newsletter = lettre d’information, offres et bons plans Shoes’Her. <br>
+            En vous abonnant, vous autorisez Shoes’Her à utiliser votre email et vos cookies afin de vous proposer des
+            offres adaptées et à réaliser des études. Seuls nos services habilités et nos prestataires d’emailing ont
+            accès à vos données. Nous les conservons 5 ans à compter de la fin de la relation commerciale (et vous
+            pouvez vous désabonner à tout moment). Pour faire valoir vos droits, cliquez ici. <br>
+            *voir les conditions de l'offre</p>
+    </section>
+
+     <!-- Reseaux sociaux -->
+
+
+
+    <section class="container" id=reseaux>
+        <p><b>Rejoignez-nous sur la communité SHOES’HER.</b></p>
         <div class="flex reseaux">
 
             <div class="flex column">
@@ -139,20 +163,25 @@
             </div>
 
             <div class="flex column">
-                <a href="https://www.instagram.com/?hl=fr" target="_blank"><img src="icn_insta2.png" alt="instagram"></a>
+                <a href="https://www.instagram.com/?hl=fr" target="_blank"><img src="icn_insta2.png"
+                        alt="instagram"></a>
             </div>
 
             <div class="flex column">
-                <a href="https://www.snapchat.com/l/fr-fr/" target="_blank"> <img src="icn_snapchat.png" alt="snapchat"></a>
+                <a href="https://www.snapchat.com/l/fr-fr/" target="_blank"> <img src="icn_snapchat.png"
+                        alt="snapchat"></a>
             </div>
         </div>
+
+        <footer class="back">
+            <div>
+                <p class="copyright"><b>© 2021 - SHOES’HER, Inc. All rights reserved.</b></p>
+            </div>
+
+        </footer>
+
     </section>
 
-    <div>
-        <p class="copyright"><b>© 2021 - SHOES’HER, Inc. All rights reserved.</b></p>
-    </div>
-
-    </footer>
 
     <script src="app.js"></script>
 
