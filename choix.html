@@ -8,8 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
+    <link rel="preconnect" href="https://fonts.gstatic.com"><link
         href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
     <title>SHOES'HER</title>
@@ -17,15 +16,33 @@
 </head>
 <body>
     
-<section id="SHOES'HERS">
-    <header class="flex">
-        <h1>SHOES'HER.</h1>
-        <nav class="flex">
-            <a href="#Baskets">Baskets</a>
+ <!-- MENU -->
+
+ <section class="back">
+</div>
+<h1 class="titre">SHOES'HER.</h1>
+<section class="compte flex">
+    <nav class="flex">
+        <a href="#Compte"><img src="User.png" alt="icon-compte" class="flex"></a>
+        <a href="#favoris"> <img src="Coeur.png" alt="icon-favoris" class="flex"></a>
+        <a href="#Panier"> <img src="ShoppingCart.png" alt="icon-panier" class="flex"></a>
+    </nav>
+</section>
+
+<section class="menusecondaire">
+    <header class=" recherche2 flex">
+        <nav class="flex deuxiemenav">
+            <a href="choix.html">Baskets</a>
             <a href="#Bottes">Bottes</a>
             <a href="#Ballerines">Ballerines</a>
             <a href="#talons">Talons</a>
         </nav>
+        <form id="none" class="compte flex">
+            <img src="MagnifyingGlass.png" alt="loupe">
+            <label for="recherche"></label>
+            <input type="text" id="recherche" placeholder="Rechercher">
+        </form>
+
         <div class="burger">
             <span></span>
             <span></span>
@@ -33,58 +50,56 @@
         </div>
     </header>
 </section>
-
-<section class="compte flex">
-    <nav class="flex">
-        <a href="#Compte"><img src="User.png" alt="icon-compte" class="compte"> Compte</a>
-        <a href="#favoris"> <img src="HeartStraight.png" alt="icon-favoris" class="favoris"> Favoris</a>
-        <a href="#Panier"> <img src="ShoppingCart.png" alt="icon-panier" class="panier"> Panier</a>
-    </nav>
 </section>
 
-<!-- Barre de recherche -->
 
-<div class="recherche flex ">
-    <form class="flex">
-        <img src="MagnifyingGlass.png" alt="loupe">
-        <label for="recherche"></label>
-        <input type="text" id="recherche" placeholder="Rechercher">
-    </form>
+ <section class="selection">
+    <p class="Retour">Retour / Baskets</p>
+    <h2>BASKETS</h2>
+
+
+
+
+    <div class="filtres flex">
+        <div class="choixFiltre flex">
+            <h3>type</h3>
+            <img src="chevron-down.png" alt="chevron">
         </div>
-    
-
-<p>Retour / Baskets</p>
-<h2>Baskets</h2>
-<div class="filtres">
-    <div class="type">
-        <h3>type</h3>
-        <img src="chevron-down.png" alt="chevron">
-    </div>
-    <div class="marque">
-        <h3>Marque</h3>
-        <img src="chevron-down.png" alt="chevron">
-    </div>
-    <div class="pointure">
-        <h3>Pointure</h3>
-        <img src="chevron-down.png" alt="chevron">
-    </div>
-    <div class="prix">
-        <h3>Prix</h3>
-        <img src="chevron-down.png" alt="chevron">
-    </div>
-    <div class="couleur">
-        <h3>Couleur</h3>
-        <img src="chevron-down.png" alt="chevron">
-    </div>
-<div class="articles">
-    <p>116 articles</p>
-    <form class="">
-        <input type="text" name="nom" id="name" placeholder="TRIER PAR">
-        <input type="Submit" value=Popularité >
-    </form>
+        <div class="choixFiltre flex">
+            <h3>Marque</h3>
+            <img src="chevron-down.png" alt="chevron">
+        </div>
+        <div class="choixFiltre flex">
+            <h3>Pointure</h3>
+            <img src="chevron-down.png" alt="chevron">
+        </div>
+        <div class="choixFiltre flex">
+            <h3>Prix</h3>
+            <img src="chevron-down.png" alt="chevron">
+        </div>
+        <div class="choixFiltre flex">
+            <h3>Couleur</h3>
+            <img src="chevron-down.png" alt="chevron">
+        </div>
 </div>
 
-<div class="lesBaskets">
+<div class="articles flex">
+    <p>116 articles</p>
+
+<div class="tri flex ">
+    <p>TRIER PAR :</p>
+    <div class="choixTri flex">
+        <h3>Popularité</h3>
+        <img src="chevron-down.png" alt="chevron">
+    </div>
+</div>
+</section>
+    
+</div>
+
+<!-- section BASKETS -->
+
+<div class="lesBaskets flex">
     <div class="box a">
         <img src="baskets/basket1.png" alt="newbalance">
     </div>
@@ -98,7 +113,8 @@
         <img src="baskets/basket4.png" alt="NoName">
     </div>
     <div class="box e">
-        <img src="baskets/basket5.png" alt="VanessaWu">
+        <a href="file:///Users/anne-laureferrari/Desktop/Projet-3/index.html" title="lien vers la page basket VanessaWu">
+        <img src="baskets/basket5.png" alt="VanessaWu"></a>        
     </div>
     <div class="box f">
         <img src="baskets/basket6.png" alt="Reebok">
@@ -111,20 +127,26 @@
     </div>
   </div>
 
+<!-- Section Newsletter -->
+
   <section class="Newsletter">
-      <div class="offre">
+      <div class="offre flex">
           <img src="Gift.png" alt="icôneCadeau">
-          <p>20€ OFFERTS*</p>
-          <p>EN VOUS ABONNANT A NOTRE INCROYABLE NEWLETTER**</p>
+          <h3>20€ OFFERTS*</h3>
       </div>
-          <input type="email" name="email" id="email" placeholder="EX: cendrillon@shoesher.fr">
-          <p>**Newsletter = lettre d’information, offres et bons plans Shoes’Her.
-            En vous abonnant, vous autorisez Shoes’Her à utiliser votre email et vos cookies afin de vous proposer des offres adaptées et à réaliser des études. Seuls nos services habilités et nos prestataires d’emailing ont accès à vos données. Nous les conservons 5 ans à compter de la fin de la relation commerciale (et vous pouvez vous désabonner à tout moment). Pour faire valoir vos droits, cliquez ici.
+      <h4>EN VOUS ABONNANT A NOTRE INCROYABLE NEWLETTER**</h4>
+      <div class="email flex">
+        <label for="email">E-MAIL</label>
+        <input type="email" name="email" id="email" placeholder="ex: cendrillon@shoesher.fr">
+      </div>
+    
+          <p>**Newsletter = lettre d’information, offres et bons plans Shoes’Her. <br>
+            En vous abonnant, vous autorisez Shoes’Her à utiliser votre email et vos cookies afin de vous proposer des offres adaptées et à réaliser des études. Seuls nos services habilités et nos prestataires d’emailing ont accès à vos données. Nous les conservons 5 ans à compter de la fin de la relation commerciale (et vous pouvez vous désabonner à tout moment). Pour faire valoir vos droits, cliquez ici. <br>
             *voir les conditions de l'offre</p>
   </section>
 
 
-<script src="TweenMax.min.js"></script>
-<script src="animations.js"></script>
+
+<script src="app.js"></script>
 </body>
 </html>
