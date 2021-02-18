@@ -15,9 +15,9 @@ section  {
     border: 4px solid red; }
 
 
-/* div, nav, header, article, form {
-    border : 1px solid green; 
-} */
+div, nav, header, article, form {
+    /* border : 1px solid green;  */
+} 
 
 .bordure {
     border: 1px solid black;
@@ -153,12 +153,12 @@ h2 {
 
 }
 .quantitePrix {
-    justify-content: space-between;
-    width:400px;
+    justify-content: flex-start;
     margin-left: 66%;
     padding-bottom: 5px;
     font-size: 14px;
     color: #808080;
+    gap:290px;
    
 
 }
@@ -166,6 +166,7 @@ h2 {
 .chauss {
  
     padding: 26px 180px 26px 42px ;
+    gap:500px;
     width: 1140px;
     justify-content: space-between;
 }
@@ -177,13 +178,14 @@ h4 {
 }
 
 .commande {
-    width: 575px;
+   
     align-items:  flex-end;
-    margin-left :774px; 
+   
 }
 
 .livraison {
     gap:10px
+
 }
 
 .livraison, .promo, .totalCommande {
@@ -199,9 +201,9 @@ h4 {
 }
 
 .promo {
-justify-content: flex-start;
-padding-left: 45px;
-gap:4px;
+    justify-content: flex-start;
+    padding-left: 45px;
+    gap:4px;
 }
 
 span {
@@ -219,9 +221,17 @@ width: 575px;
 height: 69px;
 background: #3497A9;
 color: white;
-border: 0.5px, solid, black;
+border: 0.5px solid black;
 margin-top: 30px;
+font-weight: 700;
 }
 
 /* Media Queries */
 
+@media (max-width: 1045px) {
+
+/* .commande {
+    width: 297px; 
+    height: 145px;
+}     */
+}
