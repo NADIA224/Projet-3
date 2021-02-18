@@ -160,6 +160,7 @@ nav a {
 
 p {
     text-align: center;
+    align-self: center;
 }
 
 
@@ -248,6 +249,11 @@ input {
     background: #F7F8FA;
 }
 
+.containerchauss{
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
 
 /* media queries */
 
@@ -262,6 +268,7 @@ input {
         
         direction: column;
         /* margin-top: 25px; */
+       
     }
     .chaussure div {
         width: 100%;
@@ -269,6 +276,7 @@ input {
         border: none;
         box-shadow: none;
         padding-top: 10px;
+       
     }
 }
 
@@ -341,4 +349,5 @@ input {
     nav a {
         color: white;
     }
+
 }
