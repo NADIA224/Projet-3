@@ -165,6 +165,61 @@ p {
 
 
 
+/* carousel */
+
+@keyframes display {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+  }
+
+  .pic-ctn {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+
+  .pic-ctn > img {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    animation: display 10s infinite;
+  }
+
+  img:nth-child(2) {
+    animation-delay: 2s;
+  }
+  img:nth-child(3) {
+    animation-delay: 4s;
+  }
+  img:nth-child(4) {
+    animation-delay: 6s;
+  }
+  img:nth-child(5) {
+    animation-delay: 8s;
+  }
+
+
+
 /* section Newsletter */
 .Newsletter {
     background: #F7F8FA;
@@ -348,5 +403,14 @@ input {
     nav a {
         color: white;
     }
+
+    .pic-ctn {
+        position: relative;
+        width: 100vw;
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        display: none;
+      }
 
 }
