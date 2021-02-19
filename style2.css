@@ -10,7 +10,9 @@ body {
 
 }
 
-h1 {
+
+/* Grand titre*/
+.titre{
     font-family: 'Comfortaa', cursive;
     text-align: center;
     color: #5EB9CA;
@@ -19,12 +21,10 @@ h1 {
     font-weight: 700;
     line-height: 45px;
     letter-spacing: 0px;
+    padding: 15px;
 
 }
 
-div, nav, header, article, form {
-    border : 1px solid green;
-}
 
 .flex {
     display: flex;
@@ -45,44 +45,60 @@ img {
     display: block;
     max-width: 100%;
 }
-section {
-    margin-bottom: 70px;
+
+.back{
+    background:#F7F8FA;
+    padding: 20px ;
 }
 
-/* header */
+
+/* header/menu burger*/
+
 header {
     width: min(1198px, 95%);
-    margin: auto;
     padding-top: 25px;
     background: #F7F8FA;
+    margin-left:40px;
 }
+
 nav {
-    gap: 50px;
+    gap: 70px;
+    background: #F7F8FA;
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color:black;
     font-size: 24px;
 }
-.burger {
+
+.burger  span{
     display: none;
-   
 }
 
-/* Barre recherche */
+.burger{
+    display: none;
 
+}
+
+
+/* recherche */
 #recherche {
-    width: 495px;
+    width: 400px;
     height: 51px;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     text-align: center;
+}   
+
+.recherche2 {
+    justify-content: space-between;
+    width: 100%;
 }
 
-.recherche{
-
-    justify-content: flex-end;
+input {
+    background: rgba(128, 128, 128, 0.1);
 }
 
 
@@ -233,3 +249,195 @@ h2 {
     color:#5EB9CA;
     margin:0;
   }
+
+  /* footer*/
+.reseaux {
+    justify-content: center;
+    gap: 71px;
+    background: #F7F8FA;
+    padding: 20px;
+    
+}
+
+.copyright {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+}
+.container{
+    padding: 30px;
+    background: #F7F8FA;
+}
+
+.containerchauss{
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.centre{
+    text-align: center ;
+}
+  
+  @media (max-width:670px) {
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin-left: 0px;
+        padding-left: 25px;
+        padding-bottom: 25px;
+        padding-right: 25px;
+        width: min(1198px, 100%);
+        background-color: transparent;
+    }
+    .burger{
+        background: #5EB9CA;
+        padding: 10px;
+        z-index: 1;
+    }
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #5EB9CA;
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+        transform: translateX(100%);
+        transition: .5s;
+        gap: 70px;
+    }
+    .menu-open {
+        transform: translateX(0);
+    }
+    .burger span {
+        height: 5px;
+        width: 40px;
+        background: white;
+        border-radius: 54px;
+        margin: 6px 0;
+        display: block;
+    }
+
+    #none {
+        display: none;
+
+    }
+    .Newsletter {
+        width: 100%;
+        margin:0px;
+        padding:0px;
+    }
+    .recherche2 {
+        justify-content: flex-end;
+    }
+    .menusecondaire {
+        padding: 0px;
+    }
+    section.compte {
+        display: none;
+    }
+    nav a {
+        color: white;
+    }
+
+    .pic-ctn {
+        position: relative;
+        width: 100vw;
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        display: none;
+      }
+
+      .selection {
+        margin: 50px 0px 160px;
+        flex-wrap:wrap;
+        display: none;
+    
+    }
+    
+    .Retour {
+        margin-left: 152px;
+        display: none;
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 50px;
+        display: none;
+        
+    }
+    
+    .filtres {
+        border: 0.5px black solid;
+        width: 1186px;
+        height: 70px;
+        margin: auto;
+        margin-top: 35px;
+        display: none;
+    }
+    
+    .choixFiltre {
+        width: 185px;
+        height: 44.21px;
+        background: #F7F8FA;
+        display: none;
+        
+    }
+    
+    .choixFiltre h3 {
+        font-size: 15px;
+        display: none;
+    }
+    
+    .articles {
+        width: 1186px;
+        height: 76px;
+        margin: auto;
+        margin-top: 50px;
+        padding: 10px 33px;
+        width: 1186px;
+        background: #F7F8FA;
+        justify-content: space-between;
+        font-size: 15px;
+        display: none;
+     
+       
+    }
+    .tri {
+        gap: 20px;
+        display: none;
+    }
+    
+    .choixTri {
+        background: white;
+        width: 185px;
+        height: 48px;
+        display: none;
+    }
+
+    .lesBaskets {
+        display: grid;
+        grid-template-columns: 250px;
+        grid-gap: 60px;
+        margin-left:0px;
+        flex-wrap:wrap;
+        
+      }
+
+      
+    
+
+}

@@ -6,34 +6,139 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.AL.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <title>Header paiement</title>
 </head>
 
 <body>
-    <p>
-        Coninuer mes achats</p>
-    <h2>MON PANIER</h2>
-    <section>
-        <div>
-            <!-- premier cadre avec la basket  -->
-            <div>
-                <img src="vanessa-wu.png" alt="">
-                <div class="column"></div>
-                <div class="column"></div>
+
+    <!------------------------ HEADER DE L'AMOUR -------------------------- -->
+    <header class="flex">
+        <h1>SHOES'HER.</h1>
+        <div class="number flex">
+
+            <div class="box">
+
+                <div class="cercle cercle1 flex">
+                    <p>1</p>
+                </div>
+
+                <p>CONNECTION</p>
             </div>
 
-            <!-- 2 partie livraison, promo, total commande -->
-            <div class="conainerPaiement flex colum">
-                <p>Livraison estimée le 20 février en relais</p>
-                <p>j'a un code promo</p>
-                <p>Total commande</p>
+            <div class="box">
+
+                <div class="cercle flex">
+                    <p>2</p>
+                </div>
+
+                <p>LIVRAISON</p>
+            </div>
+
+            <div class="box">
+
+                <div class="cercle flex">
+                    <p>3</p>
+                </div>
+
+                <p>PAIEMENT</p>
+            </div>
+
+            <div class="box">
+                <div class="cercle flex">
+                    <p>4</p>
+                </div>
+                <p>CONFIRMATION</p>
+                </div4>
+
 
             </div>
         </div>
-    </section>
+    </header>
+    <!------------------------------------------ FIN DU HEADER------------------ -->
 
+    <!------------------------------------------ Paiement Sécurisé-------------------------------- -->
+    <div class="page flex ">
+        <div class="containerPaiment flex column">
+            <div class="flex">
+                <h3>PAIEMENT SECURISE</h3>
+                <img src="lock1.png" alt="image de cadena">
+            </div>
+            <div class="total">
+                <input class="grey flex" type="submit" value="Total à payer 100€">
+            </div>
+        </div>
+
+        <!----- Formulaire CB-------->
+        <div class="Formulaire column flex ">
+            <div class="numeroDeCarte">
+                <label>NUMERO DE CARTE</label>
+                <input class="big" type=" text ">
+            </div>
+
+            <div class="crypto flex">
+                <div class="column ">
+                    <label>DATE D'EXPIRATION</label>
+                    <input class="small " type="text ">
+                </div>
+                <div class="column">
+                    <label>CRYPTOGRAMME</label>
+                    <span class="icon"><img src="lock1.png" alt=""></span>
+                    <input class="small " type="text">
+                </div>
+
+            </div>
+            <div>
+                <input type="checkbox" name="memo ">
+                <label for="memo ">Mémoriser ma carte</label>
+            </div>
+            <div class="bouton flex column ">
+                <button class="validerMonPaiement "><a href=" ">VALIDER MON PAIEMENT</a></button>
+                <p>Annuler</p>
+            </div>
+        </div>
+    </div>
+
+
+         <!-- Reseaux sociaux -->
+
+
+
+         <section class="container" id=reseaux>
+            <p class="centre"><b>Rejoignez-nous sur la communité SHOES’HER.</b></p>
+            <div class="flex reseaux">
+    
+                <div class="flex column">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="icn_facebook.png" alt="facebook"></a>
+                </div>
+    
+                <div class="flex column">
+                    <a href="https://twitter.com/?lang=fr" target="_blank"><img src="icn_twitter.png" alt="twitter"></a>
+                </div>
+    
+                <div class="flex column">
+                    <a href="https://www.instagram.com/?hl=fr" target="_blank"><img src="icn_insta2.png"
+                            alt="instagram"></a>
+                </div>
+    
+                <div class="flex column">
+                    <a href="https://www.snapchat.com/l/fr-fr/" target="_blank"> <img src="icn_snapchat.png"
+                            alt="snapchat"></a>
+                </div>
+            </div>
+    
+            <footer class="back">
+                <div>
+                    <p class="copyright"><b>© 2021 - SHOES’HER, Inc. All rights reserved.</b></p>
+                </div>
+    
+            </footer>
+    
+        </section>
 </body>
-
-
 
 </html>

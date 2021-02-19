@@ -47,6 +47,12 @@ section {
 
 .menusecondaire {
     width: 100%;
+    background: white;
+}
+
+.back{
+    background:#F7F8FA;
+    padding: 20px ;
 }
 
 /* Grand titre*/
@@ -67,7 +73,7 @@ section {
 /* comptes */
 .compte{
     justify-content: flex-end;
-    background:#F7F8FA;
+    
     padding: 20px;
 }
 
@@ -96,6 +102,8 @@ img {
 .recherche2 {
     justify-content: space-between;
     width: 100%;
+    background:white;
+    
 }
 
 input {
@@ -122,7 +130,7 @@ header {
 
 nav {
     gap: 70px;
-    background: #F7F8FA;
+    
 }
 
 nav a {
