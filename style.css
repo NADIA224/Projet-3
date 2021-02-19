@@ -320,7 +320,8 @@ input {
         width: min(1198px, 100%);
         margin: 0 auto 25px;
         height: auto;
-        flex-direction: column;
+        
+        direction: column;
         /* margin-top: 25px; */
        
     }
