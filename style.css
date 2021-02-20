@@ -310,6 +310,44 @@ input {
     gap: 20px;
 }
 
+/* Animation GSAP */
+
+.intro{
+    background:#F7F8FA;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'comfortaa';
+}
+
+.slider{
+    background:#5EB9CA;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+
+.intro-text{
+    color: rgb(7, 7, 7);
+    font-size: 3rem;
+}
+
+.hide{
+    background:#F7F8FA;
+    overflow: hidden;
+}
+.hide span{
+    transform: translateY(100%);
+    display: inline-block;
+}
 
 /* media queries */
 
